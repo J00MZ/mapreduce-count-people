@@ -87,8 +87,8 @@ private class LiecenseRecordReader extends RecordReader<Text, Text>{
 			if (line != null){
 				retVal = true; 
 				String []kv= line.split(",");
-				_currentKey.set(kv[0]);
-				_currentValue.set(kv[1]);
+				_currentKey.set(kv[1]);
+				_currentValue.set(kv[0]);
 				_pos += _in.getPos();
 				
 			}
