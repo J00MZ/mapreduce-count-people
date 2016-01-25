@@ -1,9 +1,5 @@
 package MapReduce;
 
-
-
-import GradesKeyPair;
-
 import java.io.IOException;
 
 import org.apache.hadoop.io.Text;
